@@ -1,0 +1,23 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# node
+node_modules/
+frontend/dist/
+
+# data (keep folders, not contents)
+data/uploads/*
+!data/uploads/.gitkeep
+data/upload_demo/
+.devenv
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
